@@ -1,0 +1,140 @@
+.promo {
+	padding-top: 16px;
+ }
+ .promo__header {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 73px;
+	color: #000000;
+ }
+ .promo__select {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	padding: 14px 0;
+	margin-top: 41px;
+ }
+ .promo__select_menu-text {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #B1B1B1;
+ }
+ .promo__select_vector {
+	display: flex;
+	color: #4C858B;
+	font-size: 20px;
+	margin: 0 8px;
+	padding-bottom: 3px;
+	cursor: pointer;
+ }
+ .promo__select_vector:hover {
+	transform: rotate(90deg);
+	transition: all 0.5s;
+ }
+ .promo__select_wrapper {
+	border: none;
+	list-style-type: none;
+	color: #4C858B;
+	appearance: none;
+	cursor: pointer;
+ }
+ .promo__text {
+	margin-top: 81px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+ }
+ .promo__link {
+	color: #E33E54;
+ }
+ .promo__main {
+	margin-top: 47px;
+	display: grid;
+	grid-template-columns: 50% 1fr;
+ }
+ .promo__main_title {
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 63px;
+	color: #000000;
+ }
+ .promo__main_title span {
+	color: #E33E54;
+	font-weight: 800;
+	text-transform: uppercase;
+ }
+ .promo__main_item ul {
+	width: 90%;
+	list-style: none;
+	padding-left: 56px;
+	margin-top: 39px;
+ }
+ .promo__main_list-item {
+	position: relative;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+	margin-top: 20px;
+ }
+ .promo__main_list-item::before {
+	position: absolute;
+	content: "";
+	top: 7.5px;
+	left: -25px;
+	width: 9px;
+	height: 9px;
+	background: #EA6628;
+	border-radius: 100%;
+ }
+ .promo__main_item:nth-child(2) {
+	position: relative;
+ }
+ .promo__main_photo {
+	position: absolute;
+	top: 0;
+	right: -180px;
+	z-index: 1;
+ }
+ .promo__main_chimney {
+	position: absolute;
+	left: 200px;
+	top: -20px;
+	z-index: 10;
+ }
+ .promo__main_triangle1 {
+	position: absolute;
+	top: 53px;
+	right: -204px;
+	z-index: 10;
+ }
+ .promo__main_triangle2 {
+	position: absolute;
+	top: 159px;
+	left: 33px;
+	z-index: 10;
+ }
+ .promo__main_dots1 {
+	position: absolute;
+	bottom: -47px;
+	right: -99px;
+	z-index: 10;
+ }
+ .promo__main_dots2 {
+	position: absolute;
+	top: 9px;
+	left: 144px;
+	z-index: 10;
+ }
