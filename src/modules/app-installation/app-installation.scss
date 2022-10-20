@@ -1,0 +1,29 @@
+@import '../style/mixins.scss';
+
+.installation {
+	padding-top: 108px;
+	&__descr {
+		margin-top: 66px;
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 30px;
+		color: #000000;
+	}
+	&__wrapper {
+		position: relative;
+		margin-top: 100px;
+		text-align: center;
+	}
+	&__dots1 {
+		position: absolute;
+		left: 120px;
+		bottom: -2px;
+	}
+	&__dots2 {
+		position: absolute;
+		top: -24px;
+		right: 120px;
+	}
+}

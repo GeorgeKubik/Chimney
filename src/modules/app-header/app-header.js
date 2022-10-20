@@ -1,11 +1,16 @@
 import './appheader.scss';
+import logo from '../../assets/img/header/Logo.png';
+import instagram from '../../assets/icons/instagram.svg';
+import telegram from '../../assets/icons/telegram.svg';
+import vk from '../../assets/icons/vk.svg';
+import whatsapp from '../../assets/icons/whatsapp.svg';
 
 	const AppHeader = () => {
 		return (
 			<div className="header">
 				<div className="header__logo">
 					<a href="google.com">
-						<img className='header__logo_img' src="" alt="logo" />
+						<img className='header__logo_img' src={logo} alt="logo" />
 					</a>
 				</div>
 
@@ -31,10 +36,10 @@ import './appheader.scss';
 						<img src={vk} alt="icon" />
 					</a>
 					<a href="google.com" className="header__social-link">
-						<img src={telegramm} alt="icon" />
+						<img src={telegram} alt="icon" />
 					</a>
 					<a href="google.com" className="header__social-link">
-						<img src={instagramm} alt="icon" />
+						<img src={instagram} alt="icon" />
 					</a>
 					<a href="google.com" className="header__social-link">
 						<img src={whatsapp} alt="icon" />

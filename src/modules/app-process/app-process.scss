@@ -1,0 +1,35 @@
+@import '../style/mixins.scss'; 
+
+.process {
+	padding-top: 114px;
+	&__items {
+		margin-top: 51px;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: repeat(3, 85px);
+		align-items: center;
+		column-gap: 35px;
+	}
+	&__item {
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 30px;
+		color: #000000;
+		display: flex;
+		align-items: center;
+		justify-content: left;
+		&span {
+			display: block;
+			font-family: "Montserrat";
+			font-style: normal;
+			font-weight: 700;
+			font-size: 70px;
+			line-height: 85px;
+			color: #E33E54;
+			opacity: 0.2;
+			padding-right: 42px;
+		}
+	}
+}
