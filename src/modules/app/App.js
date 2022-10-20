@@ -1,7 +1,7 @@
-import '../libs/normalize';
+import '../libs/normalize.css';
 import './App.scss';
 
-import AppHeader from './modules/app-header/app-header';
+import AppHeader from '../app-header/app-header';
 import AppPromo from '../app-promo/app-promo';
 import AppProcess from '../app-process/app-process';
 import AppAdvantage from '../app-advantage/app-advantage';

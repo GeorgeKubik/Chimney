@@ -1,4 +1,4 @@
-import './appadvantage.scss';
+import './app-advantage.scss';
 import guarantee from '../../assets/icons/advantage/guarantee.svg';
 import architect from '../../assets/icons/advantage/architect.svg';
 import review from '../../assets/icons/advantage/review.svg';

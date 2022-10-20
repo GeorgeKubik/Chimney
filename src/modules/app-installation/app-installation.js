@@ -1,4 +1,4 @@
-import './appinstallation';
+import './app-installation.scss';
 import dots from '../../assets/icons/promo/dots.svg';
 import blob1 from '../../assets/img/installation/Blob1.png';
 import blob2 from '../../assets/img/installation/Blob2.png';

@@ -1,4 +1,4 @@
-import './apppromo.scss';
+import './app-promo.scss';
 import chimney from '../../assets/img/promo/chimney.png';
 import mainPhoto from '../../assets/img/promo/Blob.png';
 import triangle from '../../assets/icons/promo/triangle.svg';
