@@ -1,4 +1,4 @@
-
+@import '../style/mixins';
 
 .consultation {
 	margin-top: 98px;
@@ -24,7 +24,13 @@
 		line-height: 30px;
 		color: #000000;
 	}
-	
+	&__social {
+		margin-top: 40px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 120px;
+	}
 }
 
  /* Form */
@@ -45,7 +51,7 @@
 		line-height: 22px;
 		color: #000000;
 		span {
-			color: #EA6628;
+			color: $second-color;
 		}
 	}
 	&__subtitle {
@@ -87,7 +93,5 @@
 	}
 }
 
-.social {
-	margin-top: 40px;
-}
+
 

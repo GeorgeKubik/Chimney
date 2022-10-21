@@ -1,8 +1,7 @@
 import './app-footer.scss';
-import instagram from '../../assets/icons/social/instagram.svg';
-import telegram from '../../assets/icons/social/telegram.svg';
-import vk from '../../assets/icons/social/vk.svg';
-import whatsapp from '../../assets/icons/social/whatsapp.svg';
+import SocialNetwork from '../function/social/social';
+
+
 
 const AppFooter = () => {
 	return (
@@ -57,18 +56,7 @@ const AppFooter = () => {
 						г. Санкт - Петербург ,ул. Тамбасова д.7
 						</div>
 						<div className="footer__social">
-								<a className='footer__social-link vk' href="google.com">
-									<img src={vk} alt="icon" />
-								</a>
-								<a className='footer__social-link telegramm' href="google.com">
-									<img src={telegram} alt="icon" />
-								</a>
-								<a className='footer__social-link instagramm' href="google.com">
-									<img src={instagram} alt="icon" />
-								</a>
-								<a className='footer__social-link whatsApp' href="google.com">
-									<img src={whatsapp} alt="icon" />
-								</a>
+							<SocialNetwork />
 						</div>
 
 					</div>

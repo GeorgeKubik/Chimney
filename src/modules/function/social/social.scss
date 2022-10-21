@@ -1,12 +1,15 @@
-.social {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 120px;
-}
+@import '../../style/mixins';
 .link {
 	display: block;
 	width: 15px;
 	height: 15px;
 	cursor: pointer;
+}
+.link svg {
+	fill: #4C858B;
+}
+.link svg:hover {
+	fill: $second-color;
+	transform: scale(1.3);
+	transition: all 0.5s;
 }

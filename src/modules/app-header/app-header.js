@@ -9,12 +9,10 @@ import search from '../../assets/icons/header/search.svg';
 
 	const AppHeader = () => {
 		return (
-			<div className="header">
-				<div className="header__logo">
-					<a href="google.com">
-						<img className='header__logo_img' src={logo} alt="logo" />
+			<header className="header">
+					<a className='header__logo' href="google.com">
+						<img src={logo} alt="logo" />
 					</a>
-				</div>
 
 				<div className="header__hamburger">
 					<div className="header__hamburger-divider"></div>
@@ -33,7 +31,9 @@ import search from '../../assets/icons/header/search.svg';
 
 				<div className="header__btn">перезвоните мне</div>
 
-				<SocialNetwork />
+				<div className="header__social">
+					<SocialNetwork />
+				</div>
 
 				<div className="header__wrap">
 					<div className="header__wrap-item">
@@ -47,7 +47,7 @@ import search from '../../assets/icons/header/search.svg';
 					</div>
 				</div>
 
-			</div>
+			</header>
 		)
 	}
 

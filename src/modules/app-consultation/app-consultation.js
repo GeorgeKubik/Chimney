@@ -10,12 +10,14 @@ const AppConsultation = () => {
 			<div className="consultation__title">необходима консультация?</div>
 			<div className="consultation__text">оставьте заявку или свяжитесь с нами в социальных сетях</div>
 			
-			<SocialNetwork />
+			<div className="consultation__social">
+				<SocialNetwork />
+			</div>
 			
 			<div className="order">
 				<form action="#">
 					<div className="order__wrapper">
-						<div className="order__title">Для консультации заполните форму!</div>
+						<div className="order__title">Для <span>консультации</span> заполните форму!</div>
 						<div className="order__subtitle">Для консультации заполните форму!</div>
 						<div className="order__items">
 							<input className='order__input' required placeholder='Ваше имя' name='name' type="text" />
