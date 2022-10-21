@@ -79,19 +79,7 @@
 		background-color: #fff;
 		cursor: pointer;
 	}
-	&__social {
-		margin-left: 61px;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 120px;
-		&-link {
-			display: block;
-			width: 15px;
-			height: 15px;
-			cursor: pointer;
-		}
-	}
+	
 	&__wrap {
 		width: 192px;
 		margin-left: 60px;
@@ -129,6 +117,10 @@
 			color: #FFFFFF;
 		}
 	}
- }
+}
+
+.social {
+	margin-left: 61px;
+}
 
  

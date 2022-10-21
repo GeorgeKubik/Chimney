@@ -1,3 +1,5 @@
+
+
 .consultation {
 	margin-top: 98px;
 	display: flex;
@@ -22,13 +24,7 @@
 		line-height: 30px;
 		color: #000000;
 	}
-	&__social {
-		margin-top: 35px;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 120px;
-	}
+	
 }
 
  /* Form */
@@ -80,6 +76,7 @@
 	&__btn {
 		margin-right: 0;
 		background: #215359;
+		border: none;
 		border-radius: 4px;
 		color: #FFFFFF;
 		text-transform: uppercase;
@@ -89,3 +86,8 @@
 		display: none;
 	}
 }
+
+.social {
+	margin-top: 40px;
+}
+

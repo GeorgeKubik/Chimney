@@ -1,10 +1,8 @@
 import './app-header.scss';
-import logo from '../../assets/img/header/Logo.png';
-import instagram from '../../assets/icons/social/instagram.svg';
-import telegram from '../../assets/icons/social/telegram.svg';
-import vk from '../../assets/icons/social/vk.svg';
-import whatsapp from '../../assets/icons/social/whatsapp.svg';
+import SocialNetwork from '../function/social/social';
 
+
+import logo from '../../assets/img/header/Logo.png';
 import cart from '../../assets/icons/header/cart.svg';
 import hart from '../../assets/icons/header/hart.svg';
 import search from '../../assets/icons/header/search.svg';
@@ -35,20 +33,7 @@ import search from '../../assets/icons/header/search.svg';
 
 				<div className="header__btn">перезвоните мне</div>
 
-				<div className="header__social">
-					<a href="google.com" className="header__social-link">
-						<img src={vk} alt="icon" />
-					</a>
-					<a href="google.com" className="header__social-link">
-						<img src={telegram} alt="icon" />
-					</a>
-					<a href="google.com" className="header__social-link">
-						<img src={instagram} alt="icon" />
-					</a>
-					<a href="google.com" className="header__social-link">
-						<img src={whatsapp} alt="icon" />
-					</a>
-				</div>
+				<SocialNetwork />
 
 				<div className="header__wrap">
 					<div className="header__wrap-item">
