@@ -15,15 +15,26 @@
 		position: relative;
 		margin-top: 100px;
 		text-align: center;
+		max-height: 500px
 	}
 	&__dots1 {
 		position: absolute;
 		left: 120px;
-		bottom: -2px;
+    	top: 244px;
 	}
 	&__dots2 {
 		position: absolute;
 		top: -24px;
 		right: 120px;
 	}
+}
+
+.video-js {
+	position: relative;
+	top: -550px;
+	width: 771px;
+	height: auto;
+	aspect-ratio: 16/9;
+	margin: 200px auto;
+	margin-bottom: 0;
 }

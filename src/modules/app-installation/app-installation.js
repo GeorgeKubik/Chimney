@@ -2,9 +2,18 @@ import './app-installation.scss';
 import dots from '../../assets/icons/promo/dots.svg';
 import blob1 from '../../assets/img/installation/Blob1.png';
 import blob2 from '../../assets/img/installation/Blob2.png';
-
+import VideoJS from './VideoJS';
+import video from './video.mp4';
 
 const AppInstallation = () => {
+	const videoJsOptions = {
+		autoplay: false,
+		controls: true,
+		sources: [{
+			src: video,
+			type: 'video/mp4'
+		}]
+	}
 	return (
 		<div className="installation">
 			<div className="container">
@@ -18,7 +27,9 @@ const AppInstallation = () => {
 					<img className='installation__dots2' src={dots} alt="pic" />
 					<img className='installation__blob1' src={blob1} alt="pic" />
 					<img className='installation__blob2' src={blob2} alt="pic" />
+					<VideoJS options={videoJsOptions}/>
 				</div>
+				
 			</div>
 		</div>
 	)

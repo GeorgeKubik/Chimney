@@ -11,16 +11,16 @@ const AppConsultation = () => {
 			<div className="consultation__title">необходима консультация?</div>
 			<div className="consultation__text">оставьте заявку или свяжитесь с нами в социальных сетях</div>
 			<div className="consultation__social">
-				<a className='header__social-link vk' href="google.com">
+				<a className='consultation__social-link vk' href="google.com">
 					<img src={vk} alt="icon" />
 				</a>
-				<a className='header__social-link telegramm' href="google.com">
+				<a className='consultation__social-link telegramm' href="google.com">
 					<img src={telegram} alt="icon" />
 				</a>
-				<a className='header__social-link instagramm' href="google.com">
+				<a className='consultation__social-link instagramm' href="google.com">
 					<img src={instagram} alt="icon" />
 				</a>
-				<a className='header__social-link whatsApp' href="google.com">
+				<a className='consultation__social-link whatsApp' href="google.com">
 					<img src={whatsapp} alt="icon" />
 				</a>
 			</div>

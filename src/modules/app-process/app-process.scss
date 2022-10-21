@@ -6,7 +6,7 @@
 		margin-top: 51px;
 		display: grid;
 		grid-template-columns: 50% 50%;
-		grid-template-rows: repeat(3, 85px);
+		grid-template-rows: repeat(3, minmax(85px));
 		align-items: center;
 		column-gap: 35px;
 	}
