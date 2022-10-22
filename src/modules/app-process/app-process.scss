@@ -2,8 +2,10 @@
 
 .process {
 	padding-top: 114px;
+	
 	&__items {
 		margin-top: 51px;
+		padding: 0;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: repeat(3, minmax(85px));

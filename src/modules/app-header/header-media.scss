@@ -1,0 +1,76 @@
+ 
+@media (max-width: 1440px) {
+	.header {
+		&__phone {
+			margin-left: 30px;
+		}
+		&__btn {
+			margin-left: 20px;
+		}
+		&__hamburger {
+			display: flex;
+			margin-left: 0;
+		}
+		&__menu {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.header {
+		&__hamburger {
+			margin-left: 23px;
+		}
+		&__phone {
+			display: none;
+		}
+	}
+}
+
+
+@media (max-width: 992px) {
+	.header {
+		&__hamburger {
+			order: 10;
+		}
+		&__phone {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		justify-content: flex-end;
+		padding: 24px 15px 0 15px;
+		&__logo {
+			margin-right: 270px;
+		}
+		&__phone, &__btn, &__social {
+			display: none;
+		}
+	}
+}
+ 
+ 
+@media (max-width: 576px) {
+	.header {
+		&__logo {
+			margin-right: 230px;
+		}
+		&__nav-elements {
+			.element:nth-child(1), .element:nth-child(2) {
+				display: none;
+			}
+		}	
+	}
+}
+
+@media (max-width: 320px) {
+	.header {
+		&__logo {
+			margin-right: -15px;
+		}
+	}
+}

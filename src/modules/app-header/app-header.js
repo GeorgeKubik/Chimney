@@ -1,11 +1,11 @@
 import './app-header.scss';
-import SocialNetwork from '../function/social/social';
+import './header-media.scss';
 
+import SocialNetwork from '../function/social-card/social';
+import HeaderElements from '../function/header-elements/header-elements';
 
-import logo from '../../assets/img/header/Logo.png';
-import cart from '../../assets/icons/header/cart.svg';
-import hart from '../../assets/icons/header/hart.svg';
-import search from '../../assets/icons/header/search.svg';
+import logo from '../../assets/img/header/Logo.svg';
+
 
 	const AppHeader = () => {
 		return (
@@ -21,30 +21,21 @@ import search from '../../assets/icons/header/search.svg';
 				</div>
 
 				<menu className='header__menu'>
-					<div className="header__menu-item">Каталог товаров</div>
-					<div className="header__menu-item">Доставка и оплата</div>
-					<div className="header__menu-item">Цены</div>
-					<div className="header__menu-item">Контакты</div>
+					<div className="header__menu_item">Каталог товаров</div>
+					<div className="header__menu_item">Доставка и оплата</div>
+					<div className="header__menu_item">Цены</div>
+					<div className="header__menu_item">Контакты</div>
 				</menu>
 
-				<a href="google.com" className="header__phone">+7 (812) <span>509 21 98</span></a>
-
-				<div className="header__btn">перезвоните мне</div>
+				<a href="tel:+78125092198" className="header__phone">+7 (812) <span>509 21 98</span></a>
+				<button className="header__btn"><a className='header__link' href="google.com">перезвоните мне</a></button>
 
 				<div className="header__social">
 					<SocialNetwork />
 				</div>
 
-				<div className="header__wrap">
-					<div className="header__wrap-item">
-						<img src={search} alt="icon" />
-					</div>
-					<div className="header__wrap-item">
-						<img src={hart} alt="icon" />
-					</div>
-					<div className="header__wrap-item">
-						<img src={cart} alt="icon" />
-					</div>
+				<div className="header__nav-elements">
+					<HeaderElements />
 				</div>
 
 			</header>

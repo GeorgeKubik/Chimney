@@ -43,6 +43,7 @@
 		display: flex;
 		max-width: 340px;
 		justify-content: space-between;
+		align-items: center;
 	}
 	&__hourse, &__street {
 		margin-top: 16px;
@@ -52,6 +53,11 @@
 		font-size: 14px;
 		line-height: 24px;
 		color: #4C858B;
+		display: flex;
+		img {
+			display: block;
+			margin-right: 8px;
+		}
 	}
 	&__street {
 		margin-top: 8px;

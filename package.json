@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "typeface-montserrat": "^1.1.13",
     "video.js": "^7.20.3"
   }
 }

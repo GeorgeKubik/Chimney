@@ -1,5 +1,5 @@
 import './app-consultation.scss';
-import SocialNetwork from '../function/social/social';
+import SocialNetwork from '../function/social-card/social';
 
 import spinner from '../../assets/icons/consultation/spinner.svg';
 
@@ -7,7 +7,7 @@ import spinner from '../../assets/icons/consultation/spinner.svg';
 const AppConsultation = () => {
 	return (
 		<div className="consultation">
-			<div className="consultation__title">необходима консультация?</div>
+			<div className="consultation__title" id='consultation'>необходима консультация?</div>
 			<div className="consultation__text">оставьте заявку или свяжитесь с нами в социальных сетях</div>
 			
 			<div className="consultation__social">

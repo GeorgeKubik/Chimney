@@ -8,7 +8,7 @@ const AppAdvantage = () => {
 		<div className="advantage">
 			<div className="container">
 				<div className="divider"></div>
-				<h2 className='title advantage__title'>Почему Дымоход.ру?</h2>
+				<h2 className='title advantage__title' id='advantage'>Почему Дымоход.ру?</h2>
 				<p className="advantage__descr">
 					В отличие от других производителей, мы ручаемся за качество продукции, т.к. все Дымоходы изготавливаются из качественной стали, проверенного теплоизолятора, по современной технологии плазменной сварки «встык»
 				</p>

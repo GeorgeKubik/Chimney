@@ -1,0 +1,40 @@
+@import '../../style/mixins';
+
+.element {
+	position: relative;
+	border: 1px solid #E5E5E5;
+	border-radius: 100%;
+	width: 56px;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.element svg {
+	fill: #4C858B;
+}
+
+.element:hover svg {
+	fill: $second-color;
+}
+
+.element-num {
+	position: absolute;
+	top: -2%;
+	right: -9%;
+	content: "";
+	background-color: #E33E54;
+	width: 21px;
+	height: 21px;
+	border-radius: 100%;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Lato";
+	font-weight: 800;
+	font-size: 11px;
+	line-height: 13px;
+	padding-top: 2px;
+}

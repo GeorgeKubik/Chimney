@@ -1,6 +1,8 @@
 import './app-footer.scss';
-import SocialNetwork from '../function/social/social';
+import SocialNetwork from '../function/social-card/social';
 
+import clock from '../../assets/icons/footer/clock.svg';
+import placeholder from '../../assets/icons/footer/placeholder.svg';
 
 
 const AppFooter = () => {
@@ -50,10 +52,12 @@ const AppFooter = () => {
 							время работы
 						</div>
 						<div className="footer__hourse">
+							<img src={clock} alt="icon" />
 							<span>пн-пт</span> 9:00 – 20:00 <span>сб-вс</span> 10:00 – 18:00
 						</div>
 						<div className="footer__street">
-						г. Санкт - Петербург ,ул. Тамбасова д.7
+							<img src={placeholder} alt="icon" />
+							г. Санкт - Петербург ,ул. Тамбасова д.7
 						</div>
 						<div className="footer__social">
 							<SocialNetwork />

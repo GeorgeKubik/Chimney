@@ -1,5 +1,7 @@
-import '../libs/normalize.css';
+import '../style/libs/normalize.css';
+
 import './App.scss';
+
 
 import AppHeader from '../app-header/app-header';
 import AppPromo from '../app-promo/app-promo';
@@ -11,17 +13,21 @@ import AppConmpleted from '../app-completed/app-completed';
 import AppFooter from '../app-footer/app-footer';
 
 
+
+
+
+
 function App() {
   return (
     <div className="App">
       <AppHeader />
       <AppPromo />
       <AppProcess />
-      <AppAdvantage />
-      <AppConsultation />
-      <AppInstallation />
-      <AppConmpleted />
-      <AppFooter />
+				<AppAdvantage />
+				<AppConsultation />
+				<AppInstallation />
+				<AppConmpleted />
+				<AppFooter />
     </div>
   );
 }
