@@ -1,4 +1,6 @@
 import './app-consultation.scss';
+import './media-consultation.scss';
+
 import SocialNetwork from '../function/social-card/social';
 
 import spinner from '../../assets/icons/consultation/spinner.svg';

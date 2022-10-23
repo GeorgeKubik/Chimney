@@ -1,4 +1,6 @@
 import './app-completed.scss';
+import './completed-media.scss';
+
 import worksImage1 from '../../assets/img/completed/img-1.png'
 import worksImage2 from '../../assets/img/completed/img-2.png'
 import worksImage3 from '../../assets/img/completed/img-3.png'

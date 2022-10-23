@@ -32,9 +32,11 @@
 .video-js {
 	position: relative;
 	top: -550px;
-	width: 771px;
+	width: 730px;
 	height: auto;
 	aspect-ratio: 16/9;
 	margin: 200px auto;
 	margin-bottom: 0;
+	border: 5px solid #EA6628;
+	border-radius: 10px;
 }

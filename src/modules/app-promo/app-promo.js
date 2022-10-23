@@ -35,17 +35,17 @@ const AppPromo = () => {
 							Lorem ipsum dolor sit amet <span>Lorem ipsum</span>
 						</h2>
 						<ul>
-							<li className="promo__main_list-item">Доступные цены</li>
-							<li className="promo__main_list-item">Собственное производсвто  Дымоходов</li>
-							<li className="promo__main_list-item">
+							<li className="promo__main_list">Доступные цены</li>
+							<li className="promo__main_list">Собственное производсвто  Дымоходов</li>
+							<li className="promo__main_list">
 								Выполнение необходимых работ, связанных с установкой камина, печи, котла
 							</li>
-							<li className="promo__main_list-item">Гарантия (от трёх до десяти лет)</li>
-							<li className="promo__main_list-item">
+							<li className="promo__main_list">Гарантия (от трёх до десяти лет)</li>
+							<li className="promo__main_list">
 								Работаем чисто, аккуратно, убираем за собой, не сквернословим
 							</li>
-							<li className="promo__main_list-item">Только русские квалифицированные специалисты</li>
-							<li className="promo__main_list-item">Устанавливаем любые дымоходы всех производителей</li>
+							<li className="promo__main_list">Только русские квалифицированные специалисты</li>
+							<li className="promo__main_list">Устанавливаем любые дымоходы всех производителей</li>
 						</ul>
 					</div>
 					<div className="promo__main_item">

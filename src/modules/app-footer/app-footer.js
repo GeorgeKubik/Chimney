@@ -1,4 +1,6 @@
 import './app-footer.scss';
+import './footer-media.scss';
+
 import SocialNetwork from '../function/social-card/social';
 
 import clock from '../../assets/icons/footer/clock.svg';
@@ -64,6 +66,9 @@ const AppFooter = () => {
 						</div>
 
 					</div>
+					<div className="footer__social_2">
+							<SocialNetwork />
+						</div>
 				</footer>
 			</div>
 		</footer>

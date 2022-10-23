@@ -3,6 +3,7 @@
  .advantage {
 	padding-top: 102px;
 	&__descr {
+		margin-top: 50px;
 		font-family: "Montserrat";
 		font-style: normal;
 		font-weight: 400;
@@ -13,13 +14,12 @@
 	&__items {
 		margin-top: 51px;
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
 		column-gap: 25px;
 	}
 	&__item_title {
 		margin-top: 31px;
 		font-family: "Montserrat";
-		font-style: normal;
 		font-weight: 700;
 		font-size: 20px;
 		line-height: 30px;
@@ -28,7 +28,6 @@
 	&__item_text {
 		margin-top: 10px;
 		font-family: "Montserrat";
-		font-style: normal;
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 30px;
@@ -37,4 +36,5 @@
 			color: #E33E54;
 		}
 	}
+
 }

@@ -1,4 +1,6 @@
 import './app-advantage.scss';
+import './advantage-media.scss';
+
 import guarantee from '../../assets/icons/advantage/guarantee.svg';
 import architect from '../../assets/icons/advantage/architect.svg';
 import review from '../../assets/icons/advantage/review.svg';
@@ -14,7 +16,7 @@ const AppAdvantage = () => {
 				</p>
 				<div className="advantage__items">
 					<div className="advantage__item">
-						<img className='advantage__icon' src={guarantee} alt="icon" />
+						<div className='advantage__icon'><img  src={guarantee} alt="icon" /></div> 
 						<div className="advantage__item_title">Большой гарантийный срок</div>
 						<div className="advantage__item_text">
 						Крепёж, стыковка элементов – <span>10 лет</span>
@@ -25,14 +27,14 @@ const AppAdvantage = () => {
 						</div>
 					</div>
 					<div className="advantage__item">
-						<img className='advantage__icon' src={architect} alt="icon" />
+						<div className='advantage__icon'><img  src={architect} alt="icon" /></div> 
 						<div className="advantage__item_title">Помощь в покупке агрегата</div>
 						<div className="advantage__item_text">
 							(печи, камина, котла), а также качественной установке на объекте с последующим гарантийным сервисом
 						</div>
 					</div>
 					<div className="advantage__item">
-						<img className='advantage__icon' src={review} alt="icon" />
+						<div className='advantage__icon'><img  src={review} alt="icon" /></div> 
 						<div className="advantage__item_title">Реальные отзывы клиентов</div>
 						<div className="advantage__item_text">
 							Убедитесь в добросовестности исполнения, прочитав Отзывы клиентов в специальном разделе

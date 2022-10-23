@@ -1,0 +1,70 @@
+@media (max-width: 1200px) {
+	.installation {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media (max-width: 992px) {
+	.installation {
+		&__blob2, &__blob1 {
+			display: none;
+		}
+		&__dots1 {
+			top: 150px;
+		}
+		&__dots2 {
+			top: -173px;
+		}
+	}
+	.video-js {
+		top: -116px;
+		aspect-ratio: 16/9;
+		width: 630px;
+	}
+}
+
+@media (max-width: 768px) {
+	.installation {
+		padding-top: 58px;
+		.title {
+			font-size: 30px;
+    		line-height: 37px;
+		}
+		&__descr {
+			margin-top: 34px;
+		}
+		&__dots1, &__dots2 {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.installation {
+		padding-top: 48px;
+		.title {
+			font-size: 20px;
+    		line-height: 30px;
+		}
+	}
+	.video-js {
+		width: 520px;
+	}
+}
+
+@media (max-width: 576px) {
+	.video-js {
+		top: -170px;
+		width: 450px;
+		border-radius: 10px;
+	}
+}
+
+@media (max-width: 320px) {
+	.video-js {
+		top: -170px;
+		width: 290px;
+		border-radius: 10px;
+	}
+}

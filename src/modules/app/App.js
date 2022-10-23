@@ -23,11 +23,11 @@ function App() {
       <AppHeader />
       <AppPromo />
       <AppProcess />
-				<AppAdvantage />
-				<AppConsultation />
-				<AppInstallation />
-				<AppConmpleted />
-				<AppFooter />
+		<AppAdvantage />
+		<AppConsultation />
+		<AppInstallation />
+		<AppConmpleted />
+		<AppFooter />
     </div>
   );
 }

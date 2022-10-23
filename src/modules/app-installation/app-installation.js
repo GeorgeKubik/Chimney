@@ -1,7 +1,10 @@
 import './app-installation.scss';
+import './installation-media.scss';
+
 import dots from '../../assets/icons/promo/dots.svg';
 import blob1 from '../../assets/img/installation/Blob1.png';
 import blob2 from '../../assets/img/installation/Blob2.png';
+
 import VideoJS from './VideoJS';
 import video from './video.mp4';
 
