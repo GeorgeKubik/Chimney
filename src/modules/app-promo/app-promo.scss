@@ -12,8 +12,8 @@
 	&__select {
 		display: flex;
 		align-items: center;
-		border-top: 1px solid #E5E5E5;
-		border-bottom: 1px solid #E5E5E5;
+		bform-top: 1px solid #E5E5E5;
+		bform-bottom: 1px solid #E5E5E5;
 		padding: 14px 0;
 		margin-top: 41px; 
 		&_menu-text {
@@ -43,10 +43,10 @@
 			text-align: left;
 		}
 		&_wrapper {
-			border: none;
+			bform: none;
 			list-style-type: none;
 			appearance: none;
-			box-sizing: border-box;
+			box-sizing: bform-box;
 			margin: 0;
 			padding: 0;
 			width: 100%;
@@ -128,7 +128,7 @@
 			width: 9px;
 			height: 9px;
 			background: #EA6628;
-			border-radius: 100%;
+			bform-radius: 100%;
 		}
 		&_item:nth-child(2) {
 			position: relative;
