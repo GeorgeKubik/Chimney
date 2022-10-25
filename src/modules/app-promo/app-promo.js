@@ -34,13 +34,13 @@ class AppPromo extends Component {
 		const className = onOpenSelect ? 'promo__select_wrapper select__active' : 'promo__select_wrapper';
 
 		return (
-			<div className="promo">
+			<div className="promo" onClick={this.onCloseSelect}>
 				<div className="container">
 					<h1 className='promo__title' id='promo'>Монтаж дымоходов</h1>
 					<div className="promo__select">
 						<div className="promo__select_menu-text">Главная</div>
 						<div className="promo__select_vector">&#10095;</div>
-						<div className='promo__select_block'>
+						<div className='promo__select_block' onClick={e => e.stopPropagation()}>
 							<ul name='text' id='select' className={className}>
 								<li className='promo__select_item' onClick={this.onOpenSelect}>Монтаж дымоходов</li>
 								<li className='promo__select_item' onClick={this.onCloseSelect}><a href="#process">Процесс выполнения монтажа</a></li>

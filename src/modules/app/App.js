@@ -1,5 +1,5 @@
 import { Component } from 'react';
-
+import ScrollToTop from "react-scroll-to-top";
 
 import '../style/libs/normalize.css';
 
@@ -99,6 +99,9 @@ class App extends Component {
 				<AppInstallation />
 				<AppConmpleted />
 				<AppFooter />
+				<ScrollToTop smooth>
+					<span>UP</span>
+				</ScrollToTop >
 			</div>
 		);
 	}
