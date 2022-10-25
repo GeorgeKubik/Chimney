@@ -12,7 +12,7 @@ import logo from '../../assets/img/header/Logo.svg';
 	const AppHeader = ({socialIcon}) => {
 
 		const socElement = socialIcon.map(item => {
-			const {id, ...itemIcon} = item
+			const {id, ...itemIcon} = item;
 			return (
 				<SocialNetwork key={id} {...itemIcon}/>
 			)
@@ -38,7 +38,7 @@ import logo from '../../assets/img/header/Logo.svg';
 				</menu>
 
 				<a href="tel:+78125092198" className="header__phone">+7 (812) <span>509 21 98</span></a>
-				<button className="header__btn"><a className='header__link' href="google.com">перезвоните мне</a></button>
+				<button className="header__btn"><a className='header__link' href="#consultation" >перезвоните мне</a></button>
 
 				<div className="header__social">
 					{socElement}
